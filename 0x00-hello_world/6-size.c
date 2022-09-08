@@ -5,15 +5,10 @@
 */
 int main(void)
 {
-char a;
-int b;
-long int c;
-long long int d;
-float e;
-siezof(a);
-siezof(b);
-siezof(c);
-siezof(d);
-siezof(e);
+printf("%lu\n", sizeof(char));
+printf("%lu\n", sizeof(int));
+printf("%lu\n", sizeof(long int));
+printf("%lu\n", sizeof(long long int));
+printf("%lu\n", sizeof(float));
 return (0);
 }
