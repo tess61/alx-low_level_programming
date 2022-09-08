@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <string.h>
-/*
- * to use put
- * 
- *
- */
-
+/**
+* main-Entry point
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 	char str1[60];
