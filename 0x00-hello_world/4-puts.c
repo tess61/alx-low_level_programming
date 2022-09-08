@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+/*
+ * to use put
+ * 
+ *
+ */
+
 int main(void)
 {
 	char str1[60];
