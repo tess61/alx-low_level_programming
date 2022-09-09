@@ -5,6 +5,11 @@
 */
 int main(void)
 {
-printf("%d%d%d%d%d%d%d%d%d%d\n", 0, 1, 2, 3, 4, 5, 6, 7, 8, 9);
+char c = '0';
+while (c <= '9')
+{
+putchar(c);
+c++;
+}
 return (0);
 }
