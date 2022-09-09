@@ -5,12 +5,11 @@
  */
 int main(void)
 {
-char i;
+char ch,i;
 for (i = '0'; i <= '9'; i++)
 {
 putchar(i);
 }
-char ch = 'a';
 while (ch <= 'f')
 {
 putchar(ch);
