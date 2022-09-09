@@ -10,11 +10,11 @@ for (i = '0'; i <= '9'; i++)
 {
 putchar(i);
 }
-char c = 'a';
-while (c <= 'f')
+char ch = 'a';
+while (ch <= 'f')
 {
-putchar(c);
-c++;
+putchar(ch);
+ch++;
 }
 putchar('\n');
 return (0);
