@@ -1,30 +1,31 @@
 #include <stdio.h>
+
 /**
  * main - entry point
- * codes for printg all possible combinationof the two digits
- * Return: 0 success
+ *
+ * Return: always 0
  */
 int main(void)
 {
-	int d, ds, dt;
+	int c, c_two, c_three;
 
-	for (d = 48; d <= 55; d++)
+	for (c = 48; c <= 55; c++)
 	{
-		for (ds = d + 1; ds <= 56; ds++)
+		for (c_two = c + 1; c_two <= 56; c_two++)
 		{
-			for (dt = ds + 1; dt <= 57; dt++)
+			for (c_three = c_two + 1; c_three <= 57; c_three++)
 			{
-				putchar(d);
-				putchar(ds);
-				putchar(dt);
-				if (d != 55 || ds != 56 || dt != 57)
+				putchar(c);
+				putchar(c_two);
+				putchar(c_three);
+				if (c != 55 || c_two != 56 || c_three != 57)
 				{
 					putchar(44);
-					putchar(31);
+					putchar(32);
 				}
 			}
 		}
 	}
+
 	putchar(10);
 	return (0);
-}
