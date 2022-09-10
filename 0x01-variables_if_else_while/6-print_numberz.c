@@ -5,11 +5,9 @@
 */
 int main(void)
 {
-char c = '0';
-while (c <= '9')
-{
-putchar(c);
-c++;
-}
+int c;
+for (c = '0'; c <= '9'; c++)
+	putchar(c);
+putchar('\n');
 return (0);
 }
