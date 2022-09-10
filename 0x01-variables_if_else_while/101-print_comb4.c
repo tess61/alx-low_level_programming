@@ -10,15 +10,18 @@ int main(void)
 
 	for (d = 48; d <= 55; d++)
 	{
-		for (dt = ds + 1; dt <= 57; dt++)
+		for (ds = d + 1; ds <= 56; ds++)
 		{
-			putchar(d);
-			putchar(ds);
-			putchar(dt);
-			if (d != 55 || ds != 56 || dt != 57)
+			for (dt = ds + 1; dt <= 57; dt++)
 			{
-				putchar(44);
-				putchar(31);
+				putchar(d);
+				putchar(ds);
+				putchar(dt);
+				if (d != 55 || ds != 56 || dt != 57)
+				{
+					putchar(44);
+					putchar(31);
+				}
 			}
 		}
 	}
