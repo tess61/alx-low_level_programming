@@ -6,26 +6,22 @@
  */
 int main(void)
 {
-	int digit,  digit2, digit3;
+	int d, ds, dt;
 
-	for (digit = 0; digit <= 9; digit++)
+	for (d = 48; d <= 55; d++)
 	{
-
-		for (digit2 = digit + 1; digit2 < 10; digit2++)
+		for (dt = ds + 1; dt <= 57; dt++)
 		{
-
-			for (digit3 = digit2 + 1; digit2 < 10; digit3++)
+			putchar(d);
+			putchar(ds);
+			putchar(dt);
+			if (d != 55 || ds != 56 || dt != 57)
 			{
-				putchar((digit % 10) + '0');
-				putchar((digit2 % 10) + '0');
-				putchar((digit3 % 10) + '0');
-				if (digit == 7 && digit2 == 8 && digit3 == 9)
-						continue;
-				putchar(',');
-				putchar(' ');
+				putchar(44);
+				putchar(31);
 			}
 		}
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
