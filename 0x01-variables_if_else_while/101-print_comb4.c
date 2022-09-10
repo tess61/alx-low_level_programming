@@ -1,8 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - entry point
- *
+ * main - talent
  * Return: always 0
  */
 int main(void)
