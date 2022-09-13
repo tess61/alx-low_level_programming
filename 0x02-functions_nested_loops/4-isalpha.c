@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isalpha - checks 
+ * _isalpha - checks
  * @c: input
  * return: 1 if true
  * otherwise 0
