@@ -25,7 +25,3 @@ int main(void)
 	printf("%ld\n", sum);
 	return (0);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Term
