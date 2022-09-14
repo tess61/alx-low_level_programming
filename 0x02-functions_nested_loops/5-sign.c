@@ -2,9 +2,9 @@
 /**
  * print_sign - check a number
  * @c: user input
- * return: 1 positive 
+ * return: 1 positive
  * or -1 negative
- * otherwiese 0 
+ * otherwiese 0
  */
 int print_sign(int n)
 {
