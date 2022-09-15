@@ -6,14 +6,8 @@
  */
 int _isupper(int c)
 {
-	char uppercase[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	int i;
-
-	for (i = 0; i <= 25; i++)
-	{
-		if (c == uppercase[i])
-			return (1);
-		else
-			return (0);
-	}
+	if (c >= 'A'  && c <= 'Z')
+		return (1);
+	else
+		return (0);
 }
