@@ -1,1 +1,0 @@
-parrent directory readme file
