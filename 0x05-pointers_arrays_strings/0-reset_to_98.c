@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
  * reset_to_98 - overright to 98
  * @n: user input of pointer type
