@@ -1,35 +1,22 @@
 #include "main.h"
 /**
- * *_strncat - does what strncat() do
- * @src: source
+ * _strncat -> string concatination with fixed number
  * @dest: destination
- * @n: number of
- * Return: final value
+ * @src: source
+ * @n: number charcter to concatinat
+ * Return: destination
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
-	int j = 0;
-	char final[strlen(dest) + n];
-
-	while (dest[i] 1 = '\0')
-	{
-		final[j] = dest[i];
-		i++;
-		j++;
-	}
-	i = 0;
-
-	while (i <= n - 1)
-	{
-		final[j] = src[i];
-		i++;
-		j++;
-	}
-
-	for (i = 0; i < strlen(final); i++)
-	{
-		dest[i] = final[i];
-	}
-	return (dest);
+int i = 0;
+int j = 0;
+while (dest[i] != '\0')
+i++;
+while ((j < n) && (src[j] != '\0'))
+{
+dest[i] = src[j];
+i++;
+j++;
+}
+return (dest);
 }
