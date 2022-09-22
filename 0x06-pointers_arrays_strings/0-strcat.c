@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * *_strcat - do what strcat() does
  * @dest: destination
@@ -10,7 +9,7 @@ char *_strcat(char *dest, char *src)
 {
 	int i = 0;
 	int j = 0;
-	char final[strlen(dest) + strlen(src)];
+	char final[100];
 
 	while (dest[i] != '\0')
 	{
@@ -27,7 +26,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 
-	for (int i = 0; i < strlen(final); i++)
+	for (int i = 0; i < 100; i++)
 	{
 		dest[i] = final[i];
 	}
