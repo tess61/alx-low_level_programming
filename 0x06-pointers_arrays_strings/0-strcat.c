@@ -1,34 +1,21 @@
 #include "main.h"
 /**
- * *_strcat - do what strcat() does
+ * _strcat - function used to concatination string
  * @dest: destination
- * @src: soruce
- * Return: final value
+ * @src: source
+ * Return: destination
  */
 char *_strcat(char *dest, char *src)
 {
-	int i = 0;
-	int j = 0;
-	char final[100];
-
-	while (dest[i] != '\0')
-	{
-		final[j] = dest[i];
-		i++;
-		j++;
-	}
-	i = 0;
-
-	while (src[i] != '\0')
-	{
-		final[j] = src[i];
-		i++;
-		j++;
-	}
-
-	for (int i = 0; i < 100; i++)
-	{
-		dest[i] = final[i];
-	}
-	return (dest);
+int i = 1;
+int j = 0;
+while (dest[i] != '\0')
+i++;
+while (src[j] != '\0')
+{
+dest[i] = src[j];
+i++;
+j++;
+}
+return (dest);
 }
