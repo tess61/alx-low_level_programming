@@ -1,16 +1,19 @@
 #include "main.h"
-#include <string.h>
+
 /**
- * _puts - print string without puts
- * @str: parameter
+ * _puts - prints a string followed by a new line..
+ *
+ *@str: the string to print.
+ *
  */
+
 void _puts(char *str)
 {
-	unsigned long int i;
+	int i;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		printf("%d",(str[i]);
+	_putchar(str[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
