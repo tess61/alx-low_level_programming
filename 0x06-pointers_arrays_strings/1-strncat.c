@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * *_strncat - does what strncat() do 
+ * *_strncat - does what strncat() do
  * @src: source
  * @dest: destination
+ * @n: number of
  * Return: final value
  */
 char *_strncat(char *dest, char *src, int n)
@@ -10,8 +11,8 @@ char *_strncat(char *dest, char *src, int n)
 	int i = 0;
 	int j = 0;
 	char final[strlen(dest) + n];
-	
-	while (dest[i] 1= '\0')
+
+	while (dest[i] 1 = '\0')
 	{
 		final[j] = dest[i];
 		i++;
@@ -25,7 +26,7 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		j++;
 	}
-	
+
 	for (i = 0; i < strlen(final); i++)
 	{
 		dest[i] = final[i];
