@@ -1,1 +1,2 @@
-readme file for another sasignment
+README for Static libraries
+
