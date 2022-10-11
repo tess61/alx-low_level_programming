@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include "main.h"
 /**
  * main - prints the name of the file
  * Return: 0 if success
